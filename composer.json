@@ -1,0 +1,17 @@
+{
+    "name": "rabindra-pantha/my-post-views-tracker",
+    "description": "A WordPress plugin to track post views",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Rabindra Pantha",
+            "email": "rabindra@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WPCreative\\WordPress\\MyPostViewsTracker\\": "includes/"
+        }
+    },
+    "require": {}
+}
